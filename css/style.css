@@ -8,6 +8,8 @@ html{
     font-size: 100%;
 }
 
+
+/* inizio conteiner */
 .container{
     width: 50%;
     margin: 0% auto;
@@ -33,16 +35,14 @@ html{
     height: 25em;
 }
 
-/* .color-blu {
-    height: 40em;
-    background-color: mediumblue;
-} */
 
 .header-main {
     height: 3em;
     background-color: lightskyblue;
     border-bottom: 5px solid blue;
 }
+
+/* float */
 
 .float-s {
     float: left;
@@ -51,6 +51,14 @@ html{
 .float-d {
     float: right;
 }
+
+.clearfix ::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* inizio container float */
 
 .container-s, 
 .container-d{
@@ -67,11 +75,7 @@ html{
     
 }
 
-.clearfix ::after {
-    content: '';
-    display: table;
-    clear: both;
-}
+
 
 
 div .container-s:first-child{
@@ -83,6 +87,8 @@ div .container-d:last-child {
     border-bottom: 10px solid blue;
 
 }
+
+/* footer */
 
 .footer {
     margin-top: 0.5%;
