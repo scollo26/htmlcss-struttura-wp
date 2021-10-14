@@ -19,19 +19,19 @@ html{
 .marg {
     margin-top: 2%;
     height: 5em;
-    background-color: violet;
+    background-color: #e579e6;
 }
 
 .marg2 {
     margin-top: 2%;
     margin-bottom: 2%;
     height: 20em;
-    background-color: bisque
+    background-color: #e1d67a;
 }
 
 
 .cont-main {
-    background-color: lightskyblue;
+    background-color: #abcfe7;
     height: 25em;
 }
 
@@ -90,6 +90,6 @@ div .container-d:last-child {
 .footer {
     margin-top: 0.5%;
     height: 2em;
-    background-color: blueviolet;
+    background-color: #8801fe;
 
 }
